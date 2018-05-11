@@ -13,7 +13,7 @@ export class AppComponent {
   fechaNacimiento= new Date('1994-02-25');
   nombreBoton='Cambiar Color';
   nombreClase ='sa-titulo';
-
+  clase="";
   cambiarClaseDeTitulo(){
     const nombreClaseEsTitulo=this.nombreClase==='sa-titulo'; //nueva variable con la que representar el if
     if(nombreClaseEsTitulo){
