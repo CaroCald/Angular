@@ -1,0 +1,11 @@
+.sa-fondo-pelicula-banner{
+  background-color: #000;
+}
+.sa-colorletras-pelicula-banner{
+  color: #fff;
+}
+.sa-estado{
+  background-color: #fabb00;
+  max-width: 120px;
+  text-align: center;
+}

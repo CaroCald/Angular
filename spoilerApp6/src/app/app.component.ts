@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'] //
 })
 export class AppComponent {
-  nombre= 'Carolina';
+
+  /*nombre= 'Carolina';
   apellido='Calderon';
   edad=23;
   sueldo=477747.33;
@@ -24,6 +25,6 @@ export class AppComponent {
   }
   aplicarClase(valorInput: string){
     this.nombreClase=valorInput;
-  }
+  }*/
 
 }
