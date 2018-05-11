@@ -5,7 +5,12 @@
   color: #fff;
 }
 .sa-estado{
-  background-color: #fabb00;
   max-width: 120px;
   text-align: center;
+}
+.sa-color-estado-amarillo{
+  background-color: #fabb00;
+}
+.sa-color-estado-rosado{
+  background-color: #e3003e;
 }
