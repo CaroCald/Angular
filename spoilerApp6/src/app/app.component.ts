@@ -6,6 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'] //
 })
 export class AppComponent {
+  clase1='';
+  colorAcutal='';
+  cambiarColor(){
+    const nombreClase='';
+    if(this.clase1){
+      this.clase1='sa-clase1';
+    }
+    else if(this.clase1){
+      this.clase1='sa-clase2';
+    }
+    else if(this.clase1){
+      this.clase1='sa-clase3'
+    }
+  }
 
   /*nombre= 'Carolina';
   apellido='Calderon';
