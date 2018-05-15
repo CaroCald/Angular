@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pelicula-banner.component.css']
 })
 export class PeliculaBannerComponent implements OnInit {
-  urlImagen="https://i.blogs.es/2aeb3f/tr/450_1000.jpg";
+  urlImagen="https://wallpapersite.com/images/pages/pic_w/12403.jpg";
   descripcionPelicula="Alicia Vinkander";
   nombrePelicula="Tom Raider";
   esEstreno=true;

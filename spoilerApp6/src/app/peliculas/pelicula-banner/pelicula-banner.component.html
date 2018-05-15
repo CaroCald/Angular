@@ -1,8 +1,11 @@
-<div class="sa-fondo-pelicula-banner sa-colorletras-pelicula-banner">
-  <img [src]="urlImagen" atl="Imagen de la pelicula Tomb Raider">
-  <p [class]= " 'sa-estado '+claseEstreno">{{textoEstreno}}</p>
-  <h1>{{nombrePelicula}}</h1>
-  <p>{{descripcionPelicula}}</p>
+<div class="sa-fondo-pelicula-banner sa-color-letras-pelicula-banner"
+     [style.background-image]="'url('+urlImagen+')'">
+<div class="sa-espaciado"></div>
+
+<p [class]="'sa-estado ' + claseEstreno">{{textoEstreno}}</p>
+
+<h1>{{nombrePelicula}}</h1>
+<p>{{descripcionPelicula}}</p>
 </div>
 
 <!--

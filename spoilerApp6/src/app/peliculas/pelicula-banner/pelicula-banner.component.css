@@ -1,5 +1,16 @@
 .sa-fondo-pelicula-banner{
   background-color: #000;
+  border-style: solid;
+  border-color: #000;
+  border-width: 10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(34%);
+  width: 600px;
+  height: 400px;
 }
 .sa-colorletras-pelicula-banner{
   color: #fff;
@@ -13,4 +24,7 @@
 }
 .sa-color-estado-rosado{
   background-color: #e3003e;
+}
+.sa-espaciado {
+  height: 250px;
 }
