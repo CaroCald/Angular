@@ -6,7 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'] //
 })
 export class AppComponent {
-  clase1='';
+  mostrarhola=true;
+  arregloNumeros=[1,2,3,4,5,6];
+  arregloPeliculas=[{
+    nombre:'Tomb Raider',
+    descripcion: 'Alicia Vikander',
+    esEstreno: false,
+    urlImagen:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_FOh_xn19xgXf_Uq5OK3WWzAmoVoZLHCO2vjFd4LKaxijU59eg'
+  },
+    {
+      nombre: 'Ready Player One',
+      descripcion: 'Tye Sheridan, Olivia Cooke',
+      esEstreno: false,
+      urlImagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFQprASMSiRnRHYgQl5sHoGr8GiMI9IB2XVIQP_tmD61KFgUY'
+    }
+
+
+  ];
+
+
+  /*clase1='';
   colorAcutal='';
   cambiarColor(){
     const nombreClase='';
@@ -19,7 +38,7 @@ export class AppComponent {
     else if(this.clase1){
       this.clase1='sa-clase3'
     }
-  }
+  }*/
 
   /*nombre= 'Carolina';
   apellido='Calderon';
