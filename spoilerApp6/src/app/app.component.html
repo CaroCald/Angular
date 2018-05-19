@@ -1,4 +1,4 @@
-<div class="row">
+<<div class="row">
 
   <div class="col-sm-6 text-center"
        *ngFor="let pelicula of arregloPeliculas">
@@ -13,7 +13,7 @@
 
     </app-pelicula-banner>
 
-    <button (click)="pelicula.nombre = 'Adrian'"> Cambiar es estreno</button>
+    <button (click)="pelicula.esEstreno = true"> Cambiar es estreno</button>
 
 
   </div>
@@ -41,6 +41,7 @@
   <div class="col-sm-3"></div>
 
 </div>
+
 
 <!--div class="row">
 

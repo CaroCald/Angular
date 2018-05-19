@@ -7,18 +7,22 @@ import {Component, EventEmitter, Input, OnChanges, OnInit, Output} from '@angula
 })
 export class PeliculaBannerComponent implements OnInit, OnChanges {
 
-  @Input() urlImagen:string;
-  @Input() descripcionImagen:string;
-  @Input() descripcionPelicula:string;
-  @Input() nombrePelicula:string;
-  @Input()esEstreno:boolean;
+  @Input() urlImagen: string;
+  @Input() descripcionImagen: string;
+  @Input() nombrePelicula: string;
+  @Input() descripcionPelicula: string;
+  @Input() esEstreno: boolean;
+
   @Output() dioClickEnEstado: EventEmitter<boolean> = new EventEmitter();
-  textoEstreno:string;
-  claseEstreno:string;
+
+
+  textoEstreno: string;
+  claseEstreno: string;
 
   constructor() {
-    //sus variables van a ser underfined
+    // undefined
   }
+
   ngOnInit() {
     console.log("Inicio y seteo color", this.nombrePelicula);
     this.setearColorYClase();
@@ -40,6 +44,7 @@ export class PeliculaBannerComponent implements OnInit, OnChanges {
       this.claseEstreno = 'sa-color-estado-amarillo';
     }
   }
+
   hizoClickEnEstado() {
     this.dioClickEnEstado.emit(true);
   }
