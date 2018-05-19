@@ -23,7 +23,10 @@ export class AppComponent {
 
 
   ];
-
+  alertar(evento) {
+    console.log('Evento: ', evento); // true
+    alert('DIO CLICK EN ES ESTRENO!!!!!!!!!');
+  }
 
   /*clase1='';
   colorAcutal='';

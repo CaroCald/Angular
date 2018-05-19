@@ -1,17 +1,18 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-pelicula-banner',
   templateUrl: './pelicula-banner.component.html',
   styleUrls: ['./pelicula-banner.component.css']
 })
-export class PeliculaBannerComponent implements OnInit {
+export class PeliculaBannerComponent implements OnInit, OnChanges {
 
   @Input() urlImagen:string;
   @Input() descripcionImagen:string;
   @Input() descripcionPelicula:string;
   @Input() nombrePelicula:string;
   @Input()esEstreno:boolean;
+  @Output() dioClickEnEstado: EventEmitter<boolean> = new EventEmitter();
   textoEstreno:string;
   claseEstreno:string;
 
@@ -38,6 +39,9 @@ export class PeliculaBannerComponent implements OnInit {
       this.textoEstreno = 'Proximamente';
       this.claseEstreno = 'sa-color-estado-amarillo';
     }
+  }
+  hizoClickEnEstado() {
+    this.dioClickEnEstado.emit(true);
   }
 
 }
