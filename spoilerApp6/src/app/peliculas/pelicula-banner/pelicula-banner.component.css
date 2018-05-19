@@ -21,9 +21,11 @@
 }
 .sa-color-estado-amarillo{
   background-color: #fabb00;
+  max-width: 120px;
 }
 .sa-color-estado-rosado{
   background-color: #e3003e;
+  max-width: 120px;
 }
 .sa-espaciado {
   height: 250px;

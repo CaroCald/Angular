@@ -16,13 +16,13 @@ export class AppComponent {
       nombre: 'Tomb Raider',
       descripcion: 'Alicia Vikander, Walton Goggins',
       esEstreno: false,
-      urlImagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_FOh_xn19xgXf_Uq5OK3WWzAmoVoZLHCO2vjFd4LKaxijU59eg'
+      urlImagen: 'https://cdn2.skgcl.com/wp-content/uploads/2018/03/tomb-raider-2560x1440-alicia-vikander-lara-croft-2018-4k-11778.jpg'
     },
     {
       nombre: 'Ready Player One',
       descripcion: 'Tye Sheridan, Olivia Cooke',
       esEstreno: false,
-      urlImagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFQprASMSiRnRHYgQl5sHoGr8GiMI9IB2XVIQP_tmD61KFgUY'
+      urlImagen: 'https://hipertextual.com/files/2018/03/ready_player_one_steven_spielberg-1000x667.jpg'
     },
   ];
 
